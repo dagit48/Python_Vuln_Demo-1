@@ -27,7 +27,7 @@ steps:
     testType: 'app'
     monitorWhen: 'always'
     failOnIssues: true
-    additionalArguments: --skip-unresolved--all-projects
+    additionalArguments: --skip-unresolved, --all-projects
     projectName: Justesting
     
 
