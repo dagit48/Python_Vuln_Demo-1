@@ -27,9 +27,9 @@ steps:
     testType: 'app'
     monitorWhen: 'always'
     failOnIssues: true
-    additionalArguments: --skip-unresolved
+    additionalArguments: --skip-unresolved--all-projects
     projectName: Justesting
-    additionalArguments: --all-projects
+    
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
