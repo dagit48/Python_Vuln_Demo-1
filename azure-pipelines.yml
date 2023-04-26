@@ -21,8 +21,6 @@ steps:
 - task: Npm@1
   inputs:
     command: 'publish'
-    publishRegistry: 'useFeed'
-    publishFeed: '9785f176-0b55-4dbb-90da-bb507754b28f'
 - task: SnykSecurityScan@1
   inputs:
     serviceConnectionEndpoint: 'dasnyk'
