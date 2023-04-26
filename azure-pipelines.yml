@@ -28,7 +28,6 @@ steps:
     monitorWhen: 'always'
     failOnIssues: true
     additionalArguments: --skip-unresolved 
-    additionalArguments: --all-projects
     
 
 - script: |
