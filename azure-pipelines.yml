@@ -18,9 +18,9 @@ steps:
     versionSource: 'spec'
     versionSpec: '6.x'
   
-- task: Npm@1
-  inputs:
-    command: 'publish'
+#- task: Npm@1
+ # inputs:
+  #  command: 'publish'
 - task: SnykSecurityScan@1
   inputs:
     serviceConnectionEndpoint: 'dasnyk'
