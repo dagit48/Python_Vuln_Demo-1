@@ -27,6 +27,7 @@ steps:
     testType: 'app'
     monitorWhen: 'always'
     failOnIssues: true
+    additionalArguments: --skip-unresolved
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
