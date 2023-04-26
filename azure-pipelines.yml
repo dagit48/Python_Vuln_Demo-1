@@ -13,8 +13,16 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
-
+- task: NodeTool@0
+  inputs:
+    versionSource: 'spec'
+    versionSpec: '6.x'
   
+- task: Npm@1
+  inputs:
+    command: 'publish'
+    publishRegistry: 'useFeed'
+    publishFeed: '9785f176-0b55-4dbb-90da-bb507754b28f'
 - task: SnykSecurityScan@1
   inputs:
     serviceConnectionEndpoint: 'dasnyk'
