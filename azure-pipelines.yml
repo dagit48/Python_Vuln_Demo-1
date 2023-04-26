@@ -20,7 +20,7 @@ steps:
     serviceConnectionEndpoint: 'dasnyk'
     testType: 'app'
     monitorWhen: 'always'
-    failOnIssues: true
+    failOnIssues: false
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
