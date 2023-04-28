@@ -28,6 +28,8 @@ steps:
     monitorWhen: 'always'
     failOnIssues: true
     additionalArguments: --skip-unresolved 
+    targetFile: dagit48/Python_Vuln_Demo-1
+    
     
 
 - script: |
